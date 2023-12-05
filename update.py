@@ -42,7 +42,7 @@ if DATABASE_URL:
 UPSTREAM_REPO = environ.get('UPSTREAM_REPO', '')
 log_info(f'Entered upstream repo: {UPSTREAM_REPO}')
 if len(UPSTREAM_REPO) == 0:
-    UPSTREAM_REPO = 'https://github.com/Dawn-India/Z-Mirror'
+    UPSTREAM_REPO = 'https://github.com/TELLYHUBCLOUD/T-Mirror'
 
 UPSTREAM_BRANCH = environ.get('UPSTREAM_BRANCH', '')
 log_info(f'Entered upstream branch: {UPSTREAM_BRANCH}')
@@ -64,7 +64,7 @@ if UPSTREAM_REPO:
     log_info('Fetching latest updates...')
     if update.returncode == 0:
         log_info('Successfully updated...')
-        log_info('Thanks For Using @Z_Mirror')
+        log_info('Thanks For Using @TELLYHUB')
     else:
         log_error('Error while getting latest updates.')
         log_error('Check if entered UPSTREAM_REPO is valid or not!')
