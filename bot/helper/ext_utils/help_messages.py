@@ -74,7 +74,7 @@ Check all yt-dlp api options from this <a href='https://github.com/yt-dlp/yt-dlp
 10.<code>-up</code> to upload to your drive.
 11.<code>-rcf</code> to add rclone flags.
 
-<b>Powered By @Z_Mirror</b>
+<b>Powered By @TELLYHUB</b>
 """
 
 MIRROR_HELP_MESSAGE = """
@@ -164,7 +164,7 @@ Some links need user access so sure you must add USER_SESSION_STRING for it.
 1. Commands that start with <b>qb</b> are ONLY for torrents.
 2. Read all arguments <a href='https://graph.org/Z-Mirror-Bot-Arguments-06-10'>HERE</a>.
 
-<b>Powered By @Z_Mirror</b>
+<b>Powered By @TELLYHUB</b>
 """
 
 RSS_HELP_MESSAGE = """
@@ -189,7 +189,7 @@ This filter will parse links that it's titles contains `(1080 or 720 or 144p) an
 4. Take look on title if it has static special character after or before the qualities or extensions or whatever and use them in filter to avoid wrong match.
 Timeout: 60 sec.
 
-<b>Powered By @Z_Mirror</b>
+<b>Powered By @TELLYHUB</b>
 """
 
 CLONE_HELP_MESSAGE = """
